@@ -1,4 +1,4 @@
-git init 将当前的仓库初始化为git场库
+git init 将当前的仓库初始化为git仓库
 
 git add ./1.txt 将文件从工作区添加到缓冲区
 
