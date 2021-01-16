@@ -4,7 +4,7 @@ git add ./1.txt 将文件从工作区添加到缓冲区
 
 git commit -m “注释” 将文件从缓冲区提交到归档区
 
-git add origin https://github.com/JKingRolling/gitdemo.git 添加一个远端仓库
+git add origin xxx(远端仓库地址) 添加一个远端仓库
 
 git push -u origin master将归档区的内容提交到远端仓库上来
 
