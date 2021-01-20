@@ -1,20 +1,29 @@
-git init 将当前的仓库初始化为git仓库
 
-git add ./1.txt 将文件从工作区添加到缓冲区
+## Git是一个开源的分布式版本控制系统
 
-git commit -m “注释” 将文件从缓冲区提交到归档区
+## 说明：
 
-git add origin xxx(远端仓库地址) 添加一个远端仓库
+工作区 Workspace
 
-git push -u origin master将归档区的内容提交到远端仓库上来
+缓冲区 Index/Stage
 
-git add -A  提交所有变化
+归档区 Repository
 
-git add -u  提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)
+远端仓库 Remote
 
-git add .  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
-工作区 缓冲区 归档区 远端仓库
+## 常用Git命令清单：
 
-Git是一个开源的分布式版本控制系统
+git init 初始化仓库
+
+git clone 下载一个项目
+
+git add . 将当前目录下所有文件从工作区添加到缓冲区，提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
+
+git commit -m [message] 将文件从缓冲区提交到归档区
+
+git add origin xxx [远端仓库地址] 添加一个远端仓库
+
+git push -u origin master 将归档区的内容提交到远端仓库上来
+
 
