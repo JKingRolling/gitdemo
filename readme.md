@@ -44,17 +44,17 @@ git meger master //把master分支的代码merge到test分支
 git push origin 分支名//把test分支的代码push到远程库     
 
 ## (修复目前正在test分支上的bug处理或者处理未完成的项目)
-git add .
-git stash
-git checkout bugFixBranch
-git pull --rebase origin master
-fix the bug
-git add .
-git commit -m ''
-git push
-git checkout test
-git stash pop
-continue new feature's development
+git add .     
+git stash     
+git checkout bugFixBranch     
+git pull --rebase origin master     
+fix the bug     
+git add .     
+git commit -m ''      
+git push      
+git checkout test     
+git stash pop     
+continue new feature's development      
 
 ## 说明：
 
